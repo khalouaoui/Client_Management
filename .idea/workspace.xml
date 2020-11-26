@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Stock_Management:war" />
+      <artifact name="Stock_Management:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c51ee418-408c-43cf-aa69-321256cf51cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/ChangeLocaleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/CommandeClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/ErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/FournisseurController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ICategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IClientDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ICommandeClientDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ICommandeFournisseurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IFlickrDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IFournisseurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IGenericDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ILigneCommandeClientDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ILigneCommandeFournisseurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/ILigneVenteDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IMvtStkDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IUtilisateurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/IVenteDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/ArticleDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/CategoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/ClientDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/CommandeClientDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/CommandeFournisseurDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/FlickrDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/FournisseurDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/GenericDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/LigneCommandeClientDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/LigneCommandeFournisseurDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/LigneVenteDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/MvtStkDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/UtilisateurDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/dao/impl/VenteDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/CommandeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/CommandeFournisseur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Fournisseur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/LigneCommandeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/LigneCommandeFournisseur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/LigneVente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/MvtStk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Utilisateur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/entites/Vente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/export/ArticleExporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/export/FileExporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/model/ModelCommandeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/model/ModelCommandeClientImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/model/StringResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ICategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ICommandeClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ICommandeFournisseurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IFlickrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IFournisseurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ILigneCommandeClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ILigneCommandeFournisseurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/ILigneVenteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IMvtStkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IUtilisateurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/IVenteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/ClientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/CommandeClientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/CommandeFournisseurServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/FlickrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/FournisseurServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/LigneCommandeClientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/LigneCommandeFournisseurServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/LigneVenteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/MvtStkServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/UtilisateurServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/services/impl/VenteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/test/TestFlickr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/utils/ApplicationConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stock/mvc/utils/ApplicationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/beans-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/beans-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/applicationresources_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages/applicationresources_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/ajouterArticle.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/article.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/ajouterCategory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category/category.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/ajouterClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/ajouterClient.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/client.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/commandeclient/commandeclient.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/commandeclient/nouvellecommande.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fournisseur/ajouterFournisseur.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fournisseur/fournisseur.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu_left/leftMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu_left/leftMenu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu_top/topMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu_top/topMenu.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1kneEM3IyZlaVOYFBtD7qIk9dWc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.60">
+    <configuration name="All in Stock_Management" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stock_Management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.60" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.60" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Stock_Management:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Stock_Management_war" />
+          </settings>
+        </artifact>
+        <artifact name="Stock_Management:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Stock_Management_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Stock_Management" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57651" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Stock_Management:war" />
+          <artifact name="Stock_Management:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Stock_Management" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57651" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in Stock_Management" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.60" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Stock_Management" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1318306" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c51ee418-408c-43cf-aa69-321256cf51cd" name="Default Changelist" comment="" />
+      <created>1606340669728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606340669728</updated>
+      <workItem from="1606340673519" duration="387000" />
+      <workItem from="1606341120274" duration="2389000" />
+      <workItem from="1606345599363" duration="4265000" />
+      <workItem from="1606385679681" duration="5213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="71" key="#Project_Structure" timestamp="1606346741224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606346741224" />
+    <state x="360" y="71" key="#Tomcat_Server" timestamp="1606342024405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="71" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1606342024405" />
+    <state x="465" y="52" width="619" height="719" key="#Unnamed" timestamp="1606342032586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="52" width="619" height="719" key="#Unnamed/0.0.1536.824@0.0.1536.824" timestamp="1606342032586" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606346748619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606346748619" />
+    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1606386542845">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1606386542845" />
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606389205797">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606389205797" />
+    <state x="577" y="168" key="FileChooserDialogImpl" timestamp="1606346668379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606346668379" />
+    <state width="1326" height="263" key="GridCell.Tab.0.bottom" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.0.center" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.0.left" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.0.right" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.1.bottom" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.1.center" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.1.left" timestamp="1606399690861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1606399690861" />
+    <state width="1326" height="263" key="GridCell.Tab.1.right" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.2.bottom" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.2.center" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.2.left" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.2.right" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.3.bottom" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606349869550" />
+    <state width="1326" height="263" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.3.center" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1606349869550" />
+    <state width="1326" height="263" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.3.left" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1606349869549" />
+    <state width="1326" height="263" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state width="1326" height="263" key="GridCell.Tab.3.right" timestamp="1606399690862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1270" height="250" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1606349869550" />
+    <state width="1326" height="263" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1606399690862" />
+    <state x="500" y="124" key="RollbackChangesDialog" timestamp="1606349305392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606349305392" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1606341419562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606341419562" />
+    <state x="484" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1606385696693">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606345601136" />
+    <state x="484" y="248" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1606385696693" />
+    <state x="496" y="28" width="607" height="804" key="find.popup" timestamp="1606389452632">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="28" width="607" height="804" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1606389452632" />
+  </component>
+</project>
